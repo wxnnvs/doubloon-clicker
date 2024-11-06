@@ -1,6 +1,8 @@
 # Doubloon Clicker
 > Like cookie clicker but with Doubloons!!
 
+![Doubloon Clicker](screenshot.png)
+
 ## How
 1. Visit [the live site](https://wxnnvs.ftp.sh/doubloon-clicker)
 2. Click the doubloon
