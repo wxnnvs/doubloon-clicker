@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    color: #F4F4F4;
+}
+
+img {
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 50vh;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: transparent;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+img:active {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#upgradeButton {
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background: #ddb800;
+    color: #333;
+    border: 0;
+    padding: 1vh 2vh;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+#upgradeButton:hover {
+    background: #c6a501;
+}
+
+#upgradeButton:active {
+    background: #836d00;
+    transform: translate(50%, -50%) scale(1.1);
+}
+
+a {
+    color: #ccccff;
+    text-decoration: underline;
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
